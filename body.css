@@ -1,0 +1,72 @@
+/* Variables */
+:root {
+    --accent-color: #090258;
+    --primary-color: #b7a1e0;
+    --secondary-color: #7355cd;
+    --background-color: #d5d0de;
+  }
+
+  iframe {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: none;
+  }
+  
+  
+  .hero {
+    /* background-color: var(--primary-color); */
+    color: var(--accent-color);
+    padding: 5rem 2rem;
+  }
+  
+  .hero-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero {
+      padding: 3rem 1rem;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      font-size: 1rem;
+      padding: 0.8rem 1.5rem;
+    }
+  }
+  
